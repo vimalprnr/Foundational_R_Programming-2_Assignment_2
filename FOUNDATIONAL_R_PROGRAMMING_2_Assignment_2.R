@@ -1,0 +1,5 @@
+x <- c("data.science.in.R","machine.learning.in.R") 
+y<- gsub("[.]", "-", x)
+x <- c("data.science.in.R","machine.learning.in.R")
+x1<-paste0("-", x)
+y1<- gsub(", ","",toString(x1))
